@@ -10,7 +10,7 @@ print(rate)                        # printing current voice rate
 engine.setProperty('rate', 230) 
 engine.say(m)
 engine.runAndWait()
-a = input()
+a = input('Смайлики на Win + ю список возможных(список может залагаться(попортиться) поэтому иногда лучше его не использовать) - '+smile+'     Введите смайлик:   ')
 if m == a:
     print('Вы победили')
 else:
